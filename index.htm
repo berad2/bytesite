@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Image Converter - JPEG PNG PDF RAW CR2 HEIC WEBP & more Online!</title>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap">
+    <link rel="stylesheet" href="css\app.css?id=3987cfa0afabdb98788d">
+    <link rel="icon" href="images\favicon.ico">
+<script data-ad-client="ca-pub-9451735067198164" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</head>
+
+<body class="home">
+
+<section id="title">
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #00affe;">
+
+    <a class="navbar-brand" href="index.htm">
+        <img src="images\icon.png" width="40" height="40" class="d-inline-block align-top" alt="">
+        Image Converter</a>
+
+    <button class="navbar-toggler" type="button" id="responsive-navbar">
+        <span class="navbar-toggler-icon"> <img src="images\toggler-icon.png" alt="" width="30" height="25"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+                <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <script>
+        window.api_base_url ='https://imageconverter.io/web/v2';
+    </script>
+
+    <!-- Title -->
+
+        <div class="row row-uploader">
+            <div class="col-lg-5 col-uploader">
+                <h1>Fast, secure & free</h1>
+                <p style="color:white;font-size:1.1rem;">Upload and convert your image files here in your browser or on mobile with our free app!</p>
+                <div id="uploader">
+    <div id="drag-area" class="input-group mb-4 upload-container">
+        <div class="drag-wrapper">
+            <div class="custom-icon"><img src="images\drag-icon.png"></div>
+            <div class="custom-label">Drag & Drop your Image Files here<span>or</span></div>
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="file" name="file" style="display: none;" multiple="">
+                <input type="button" class="browser-button" value="Browse" id="browse-custom-file">
+            </div>
+        </div>
+    </div>
+    <div id="info" style="display: none"></div>
+    <div class="progress border-0" style="display:none;height: 50px;">
+        <div class="totalProgress progress-bar bg-success progress-bar-striped progress-bar-animated " role="progressbar" style="width:0;"></div>
+    </div>
+
+    <p></p>
+    <div class="input-group mb-4 image-formats">
+        <div class="input-group-prepend">
+            <label class="input-group-text" for="outputFormatSelector">New Format:</label>
+        </div>
+        <select class="custom-select" id="outputFormatSelector" name="outputFormatSelector">
+            <option value="jpg">jpg</option>
+            <option value="jpeg">jpeg</option>
+            <option value="png">png</option>
+            <option value="psd">psd</option>
+            <option value="gif">gif</option>
+            <option value="bmp">bmp</option>
+            <option value="webp">webp</option>
+            <option value="tga">tga</option>
+            <option value="tif">tif</option>
+            <option value="jp2">jp2</option>
+            <option value="ai">ai</option>
+            <option value="art">art</option>
+            <option value="avs">avs</option>
+            <option value="bmp2">bmp2</option>
+            <option value="bmp3">bmp3</option>
+            <option value="cin">cin</option>
+            <option value="cip">cip</option>
+            <option value="cmyk">cmyk</option>
+            <option value="cmyka">cmyka</option>
+            <option value="dcx">dcx</option>
+            <option value="dds">dds</option>
+            <option value="dib">dib</option>
+            <option value="dpx">dpx</option>
+            <option value="eps">eps</option>
+            <option value="eps2">eps2</option>
+            <option value="eps3">eps3</option>
+            <option value="fax">fax</option>
+            <option value="fits">fits</option>
+            <option value="gif87">gif87</option>
+            <option value="gray">gray</option>
+            <option value="h">h</option>
+            <option value="hdr">hdr</option>
+            <option value="hrz">hrz</option>
+            <option value="info">info</option>
+            <option value="j2c">j2c</option>
+            <option value="jpc">jpc</option>
+            <option value="mat">mat</option>
+            <option value="mng">mng</option>
+            <option value="mono">mono</option>
+            <option value="mpc">mpc</option>
+            <option value="mtv">mtv</option>
+            <option value="netscape">netscape</option>
+            <option value="otb">otb</option>
+            <option value="pal">pal</option>
+            <option value="palm">palm</option>
+            <option value="pam">pam</option>
+            <option value="pbm">pbm</option>
+            <option value="pcd">pcd</option>
+            <option value="pcds">pcds</option>
+            <option value="pcl">pcl</option>
+            <option value="pcx">pcx</option>
+            <option value="pdb">pdb</option>
+            <option value="pdf">pdf</option>
+            <option value="pfm">pfm</option>
+            <option value="pgm">pgm</option>
+            <option value="pict">pict</option>
+            <option value="png24">png24</option>
+            <option value="png32">png32</option>
+            <option value="png8">png8</option>
+            <option value="pnm">pnm</option>
+            <option value="ppm">ppm</option>
+            <option value="ps">ps</option>
+            <option value="ps2">ps2</option>
+            <option value="ps3">ps3</option>
+            <option value="psb">psb</option>
+            <option value="ptif">ptif</option>
+            <option value="ras">ras</option>
+            <option value="rgb">rgb</option>
+            <option value="rgba">rgba</option>
+            <option value="sgi">sgi</option>
+            <option value="sun">sun</option>
+            <option value="svg">svg</option>
+            <option value="uil">uil</option>
+            <option value="uyvy">uyvy</option>
+            <option value="vicar">vicar</option>
+            <option value="viff">viff</option>
+            <option value="wbmp">wbmp</option>
+            <option value="xbm">xbm</option>
+            <option value="xpm">xpm</option>
+            <option value="ycbcr">ycbcr</option>
+            <option value="ycbcra">ycbcra</option>
+            <option value="yuv">yuv</option>
+        </select>
+    </div>
+    <div class="convert-button">
+        <button id="convert" disabled="" class="btn btn-success btn-lg download"><i class="fas fa-download"></i> Convert</button>
+    </div>
+</div>
+            </div>
+            <div class="col-lg-1 col-empty"></div>
+            <div class="col-6 col-lg-3 col-store">
+                <img class="app-image" src="images\iOS.png" height="500px" width="250px" alt="android-mockup">
+                <a class="btn btn-dark btn-lg download iOS" href="https://itunes.apple.com/us/app/image-converter/id1023379805?ls=1&mt=8" target="_blank"><i class="fab fa-apple"></i> App Store
+                </a>
+            </div>
+            <div class="col-6 col-lg-3 col-store">
+                <img class="app-image" src="images\android.png" height="500px" width="250px" alt="android-mockup">
+                <a class="btn btn-outline-light btn-lg download android" href="https://play.google.com/store/apps/details?id=com.paul.icon" target="_blank">
+                    <i class="fab fa-google-play"></i> Play Store </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+<!-- Features -->
+
+<section id="features">
+
+    <div class="row">
+        <div class="col-lg-4 feature-box">
+            <i class="fas fa-check-circle fa-4x sec2icon"></i>
+            <h3>Easy to use</h3>
+            <p>Just add the file, select the new format and hit convert!</p>
+        </div>
+
+        <div class="col-lg-4 feature-box">
+            <i class="fas fa-users fa-4x sec2icon"></i>
+            <h3>Millions of Users</h3>
+            <p>Since 2013, Our apps have been downloaded over 2 million times!</p>
+        </div>
+
+        <div class="col-lg-4 feature-box">
+            <i class="fas fa-shield-alt fa-4x sec2icon"></i>
+            <h3>Guaranteed Privacy</h3>
+            <p>No file stays on our servers longer than 15 minutes!</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Testimonials -->
+<section id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>Impressed. I was sent a photo in CR2 format which was impossible to viewon my phone, and boom 💥
+                    Image Converter did the conversion for me. kudos to you guys; keep it up!</h2>
+                <em>Jethro Ngochindo, PlayStore</em>
+            </div>
+            <div class="carousel-item">
+                <h2>I’ve been tryna concert ARW Sony raw image photos to JPG photos so I can view on my iPhone for
+                    almost a week now. This was a life saver. Preciate it.</h2>
+                <em>Signature_Class, App Store</em>
+            </div>
+            <div class="carousel-item">
+                <h2>this app is perfect, it has many formats to change your image and it also allows you to change its
+                    size</h2>
+                <em>Samuel De Jesus, Play Store</em>
+            </div>
+
+            <div class="carousel-item">
+                <h2>I’d been looking for an app to convert my gif files to jpeg for a while and finally found an app
+                    that actually works. It’s smooth, easy to work with, and simple - all that I need.</h2>
+                <em>Kimbo183, App Store</em>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+</section>
+<!-- supported Formats -->
+<section id="supported">
+
+    <h3 style="color: #fff;">Supported Image file formats (READ):</h3>
+    <p class="formats">
+        3FR, 3G2, 3GP, A, AAI, AI, ART, ARW, AVI, AVS, B, BGR, BGRA, BGRO, BIE, BMP, BMP2, BMP3, BRF, C, CAL, CALS,
+        CANVAS, CAPTION, CIN, CIP, CLIP, CMYK, CMYKA, CR2, CRW, CUR, CUT, DCM, DCR, DCRAW, DCX, DDS, DFONT, DJVU, DNG,
+        DPX, DXT1, DXT5, EPDF,
+        EPI,
+        EPS, EPS2, EPS3, EPSF, EPSI, EPT, EPT2, EPT3, ERF, EXR, FAX, FILE, FITS, FPX, FRACTAL, FTP, FTS, G, G3, G4, GIF,
+        GIF87, GRADIENT, GRAY, GRAYA, GROUP4, HALD, HDR, HEIC, HISTOGRAM, HRZ, HTM, HTML, HTTP, HTTPS, ICB, ICO, ICON,
+        IIQ, INFO, INLINE,
+        IPL, ISOBRL, ISOBRL6, J2C, J2K, JBG, JBIG, JNG, JNX, JP2, JPC, JPE, JPEG, JPG, JPM, JPS, JPT, JSON, K, K25, KDC,
+        LABEL, M, M2V, M4V, MAC, MAP, MASK, MAT, MATTE, MEF, MIFF, MKV, MNG, MONO, MOV, MP4, MPC, MPEG, MPG, MRW, MSL,
+        MSVG, MTV, MVG, NEF,
+        NRW, NULL, O, ORF, OTB, OTF, PAL, PALM, PAM, PANGO, PATTERN, PBM, PCD, PCDS, PCL, PCT, PCX, PDB, PDF, PDFA, PEF,
+        PFA, PFB, PFM, PGM, PGX, PICON, PICT, PIX, PJPEG, PLASMA, PNG, PNG00, PNG24, PNG32, PNG48, PNG64, PNG8, PNM,
+        PPM, PS, PS2, PS3,
+        PSB,
+        PSD, PTIF, PWP, R, RADIAL-GRADIENT, RAF, RAS, RAW, RGB, RGBA, RGBO, RGF, RLA, RLE, RMF, RW2, SCR, SCREENSHOT,
+        SCT, SFW, SGI, SHTML, SIX, SIXEL, SPARSE-COLOR, SR2, SRF, STEGANO, SUN, SVG, SVGZ, TEXT, TGA, THUMBNAIL, TIFF,
+        TIFF64, TILE, TIM, TTC,
+        TTF, TXT, UBRL, UBRL6, UIL, UYVY, VDA, VICAR, VID, VIFF, VIPS, VST, WBMP, WEBP, WMF, WMV, WMZ, WPG, X, X3F, XBM,
+        XC, XCF, XPM, XPS, XV, XWD, Y, YCbCr, YCbCrA, YUV
+    </p>
+    <br>
+    <h3 style="color: #fff;">Convert to the following formats:</h3>
+    <p class="formats">
+        AI, ART, AVS, BMP, BMP2, BMP3, CIN, CIP, CMYK, CMYKA, DCX, DDS, DIB, DPX, EPS, EPS2, EPS3, FAX, FITS, GIF,
+        GIF87, GRAY, H , HDR, HRZ, INFO, J2C, JP2, JPC, JPG, MAT, MNG, MONO, MPC, MTV, NETSCAPE, OTB, PAL , PALM, PAM,
+        PBM, PCD, PCDS, PCL, PCX,
+        PDB, PDF, PFM, PGM, PICT, PNG, PNG24, PNG32, PNG8, PNM, PPM, PS, PS2, PS3, PSB, PSD, PTIF, RAS, RGB, RGBA, SGI,
+        SUN, SVG, TGA, TIF, UIL, UYVY, VICAR, VIFF, WBMP, WEBP, XBM, XPM, YCBCR, YCBCRA YUV
+    </p>
+
+    <br><br>
+    <h3 style="color: #fff;">Download now and start Converting your images today!</h3><br>
+    <a class="btn btn-dark btn-lg download iOS" href="https://itunes.apple.com/us/app/image-converter/id1023379805?ls=1&mt=8" target="_blank"><i class="fab fa-apple"></i> App Store
+    </a>
+    <a class="btn btn-outline-light btn-lg download android" href="https://play.google.com/store/apps/details?id=com.paul.icon" target="_blank">
+        <i class="fab fa-google-play"></i> Play Store </a>
+</section>
+<!-- Footer -->
+<footer id="footer">
+    <p>© Copyright 2020 IgKnight Technologies Ltd</p>
+    <p><i class="fas fa-map-marker-alt"></i> Kampala, Uganda</p>
+    <p class="email"><i class="fas fa-envelope"></i> <a href="mailto:info@igknight.tech">info@igknight.tech</a></p>
+</footer>
+
+
+<link rel="stylesheet" href="css\fontawesome-free-5.13.0-web\css\all.min.css">
+
+<div class="modal modal-alert fade" id="alertModal" tabindex="-1" role="dialog" style="display: none">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="dialog">
+        <div class="modal-content rounded-0 border-0">
+            <div class="modal-header rounded-0">
+                <h6 class="modal-title"></h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary closeButton" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-custom modal fade" id="progressOverlay" tabindex="-1" role="dialog" style="display: none;">
+    <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable" role="dialog">
+        <div class="modal-content rounded-0 border-0">
+            <div class="modal-header rounded-0">
+                <h6 class="modal-title">Ads help support us and keeps this service free :)</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class=" col leftCol">
+                        <div class="progress border-0" style="height: 25px;">
+                            <div class="totalProgress progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width:0;">
+                            </div>
+                        </div>
+                        <div id="progressContainer"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary closeButton" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-analytics.js"></script>
+
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyCvsJf_DsHXrNIGrxZWmHk0con2BWtZCZc",
+        authDomain: "image-converter-c7898.firebaseapp.com",
+        databaseURL: "https://image-converter-c7898.firebaseio.com",
+        projectId: "image-converter-c7898",
+        storageBucket: "image-converter-c7898.appspot.com",
+        messagingSenderId: "495671234748",
+        appId: "1:495671234748:web:3ed350d58e022f4a",
+        measurementId: "G-SL1P9DWJZB"
+    };
+
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    window.analytics = firebase.analytics();
+</script>
+;
+
+<script src="js\manifest.js"></script>
+<script src="js\app.js?id=c85fb66aa1878fdea2c2" charset="utf-8"></script>
+<script data-ad-client="ca-pub-9451735067198164" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</body>
+
+</html>
